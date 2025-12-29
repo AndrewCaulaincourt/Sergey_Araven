@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Контакты | Сергей Абрамян - Эксперт по Бизнесу</title>
+    <link rel="stylesheet" href="./src/style.css" />
+  </head>
+  <body>
+    <div id="header-placeholder"></div>
+
+    <main class="container">
+      <section class="section">
+        <h1 class="section__title" style="text-align: center">
+          Начните трансформацию вашего бизнеса
+        </h1>
+        <p
+          class="text"
+          style="text-align: center; max-width: 600px; margin: 0 auto 60px"
+        >
+          Для начала работы запишитесь на вводную диагностическую сессию. Я на
+          связи с 10:00 до 20:00 (по МСК). Напишите в мессенджер, и я оперативно
+          отвечу.
+        </p>
+
+        <div class="contacts-wrapper">
+          <div class="contacts-info">
+            <div class="contact-item">
+              <span class="contact-icon">📞</span>
+              <div>
+                <span class="contact-label">Телефон</span>
+                <a href="tel:+79995325689" class="contact-link"
+                  >+7 (999) 532-56-89</a
+                >
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <span class="contact-icon">✉️</span>
+              <div>
+                <span class="contact-label">E-mail</span>
+                <a href="mailto:sergiusaaron@yandex.ru" class="contact-link"
+                  >sergiusaaron@yandex.ru</a
+                >
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <span class="contact-icon">📍</span>
+              <div>
+                <span class="contact-label">Локация</span>
+                <span class="contact-link">Москва, работа по всему миру</span>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <span class="contact-icon">💬</span>
+              <div>
+                <span class="contact-label">Telegram / WhatsApp</span>
+                <a href="https://t.me/+79995325689" class="contact-link"
+                  >@SergiusAaron</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="contacts-form-wrapper">
+            <h3 class="form-title">Записаться на диагностическую сессию</h3>
+            <form class="form">
+              <div class="form-group">
+                <label class="form-label">Ваше имя</label>
+                <input type="text" class="form-input" placeholder="Андрей" />
+              </div>
+
+              <div class="form-group">
+                <label class="form-label">Телефон или Telegram</label>
+                <input type="text" class="form-input" placeholder="+7..." />
+              </div>
+
+              <div class="form-group">
+                <label class="form-label">Ваш запрос (кратко)</label>
+                <textarea
+                  class="form-input form-textarea"
+                  placeholder="Опишите ваш запрос или проблему, которую хотите решить..."
+                ></textarea>
+              </div>
+
+              <button
+                type="submit"
+                class="button button--primary"
+                style="width: 100%"
+              >
+                Отправить запрос
+              </button>
+              <p class="form-policy">
+                Нажимая кнопку, вы соглашаетесь с политикой конфиденциальности.
+              </p>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <section style="margin-bottom: 80px">
+        <div class="map-placeholder">
+          📍 Здесь будет интерактивная карта (Яндекс или Google)
+        </div>
+      </section>
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>
